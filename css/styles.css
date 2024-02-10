@@ -1,6 +1,4 @@
-*,
-*::before,
-*::after {
+.logo-web::after {
   content: "";
   width: 100%;
   position: absolute;
