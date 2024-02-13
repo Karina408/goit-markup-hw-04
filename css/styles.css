@@ -1,5 +1,6 @@
 .studio-link::after {
   width: 100%;
+  content: "";
   position: absolute;
   left: 0;
   bottom: -1px;
