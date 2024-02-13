@@ -1,4 +1,4 @@
-.studio-link::after {
+.current::after {
   width: 100%;
   content: "";
   position: absolute;
@@ -9,6 +9,10 @@
   border-radius: 2px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.studio-link.current {
+  color: blue;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -38,7 +42,7 @@ body {
 }
 .studio-link {
   position: relative;
-  color: #404bbf;
+  color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-link {
@@ -60,7 +64,7 @@ body {
   max-width: 1440px;
   width: 100%;
   padding: 188px 0;
-  margin: 0;
+  margin: 0 auto;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -128,7 +132,6 @@ body {
 }
 
 .portfolio-backgraund {
-  background-color: #f4f4fd;
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -247,7 +250,6 @@ body {
 .header {
   position: sticky;
   top: 0;
-  width: 1440px;
   height: 72px;
   background: white;
   border-bottom: 1px #e7e9fc solid;
