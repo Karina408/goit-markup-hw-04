@@ -1,4 +1,4 @@
-.logo-web::after {
+.nav-menu::after {
   content: "";
   width: 100%;
   position: absolute;
@@ -20,7 +20,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: #404bbf;
   text-decoration: none;
   align-items: center;
   margin-right: 76px;
@@ -55,14 +55,16 @@ body {
   margin-bottom: 48px;
 }
 .tittle-background {
-  background-color: #2e2f42;
+  max-width: 1440px;
+  width: 100%;
   padding: 188px 0;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people.jpeg);
+    url(../images/people.jpg);
   max-width: 1440px;
+  background-color: rgb(46, 47, 66);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
