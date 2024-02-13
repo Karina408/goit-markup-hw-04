@@ -374,7 +374,7 @@ p {
 }
 .icon-social-link:hover,
 .icon-social-link:focus {
-  background-color: #404bbf;
+  color: #404bbf;
 }
 .icon-style {
   fill: #f4f4fd;
