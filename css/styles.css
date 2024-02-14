@@ -310,7 +310,7 @@ ul {
   width: calc((100% - 48px) / 3);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.app-paragraph:hover {
+.item-portfolio:hover.overlay {
   transform: translateY(0%);
 }
 .name-app {
@@ -441,12 +441,11 @@ p {
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-logo-item-link:hover {
-  background-color: #31d0aa;
-}
+.footer-logo-item-link:hover,
 .footer-logo-item-link:focus {
   background-color: #31d0aa;
 }
+
 .footer-icons-media {
   fill: #f4f4fd;
 }
